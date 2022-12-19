@@ -6,7 +6,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="/*"
           element={
             <div className="App">
               <p>Evan Kosei Cook's Personal Page</p>
