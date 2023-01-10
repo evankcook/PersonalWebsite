@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./Components/Button";
 
 function App() {
   return (
@@ -71,7 +72,23 @@ function App() {
           </a>
         </div>
       </nav>
-      <p class="notice">A WORK IN PROGRESS!</p>
+      <div className="home-resume">
+        <p>Hello, My name is</p>
+        <h1>Evan Kosei Cook</h1>
+        <h3>
+          Computer science and business student at Northeastern University
+        </h3>
+        <p className="resume-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+        </p>
+        <Button
+          link="https://www.linkedin.com/in/evankcook/"
+          text="Check out my resume"
+        />
+      </div>
       <section id="about-me"></section>
       <section id="projects"></section>
       <section id="experience"></section>
