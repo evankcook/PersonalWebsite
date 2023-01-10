@@ -13,6 +13,11 @@
   src: url("fonts/Raleway-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Raleway-Thin";
+  src: url("fonts/Raleway-Thin.ttf");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -25,10 +30,11 @@
 
 body {
   background-color: #020c14;
+  height: 100%;
 }
 
 .home-navbar {
-  margin-left: 24px;
+  padding-left: 24px;
   background-color: #09141d;
   display: flex;
   width: 100%;
@@ -75,15 +81,8 @@ body {
   fill: #2ca796;
 }
 
-.notice {
-  margin: 100px;
-  font-size: 40px;
-  font-family: "Cairo-Regular";
-  color: #f2fffd;
-}
-
 .home-resume {
-  margin-top: 240px;
+  margin-top: 15%;
   margin-left: 9rem;
   font-family: "Raleway-Regular";
   font-size: 20px;
@@ -101,12 +100,35 @@ p {
   font-size: 96px;
 }
 
-.home-resume h3 {
+h3 {
+  font-family: "Cairo-Regular";
   font-size: 36px;
+  color: #f2fffd;
 }
 
 .resume-text {
   margin-top: 50px;
   margin-bottom: 35px;
   width: 55%;
+}
+
+p {
+  font-family: "Cairo-Regular";
+  font-size: 20px;
+  color: #f2fffd;
+}
+
+.about-me-text {
+  width: 60%;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 9rem;
+}
+
+#personal-photo {
+  width: 30%;
 }
