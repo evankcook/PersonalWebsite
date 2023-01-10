@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+
+.button {
+  font-family: "Raleway-Regular";
+  color: #2ca796;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  color: #09141d;
+  background-color: #2ca796;
+}
