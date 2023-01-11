@@ -87,10 +87,7 @@ function App() {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
         </p>
-        <Button
-          link="https://www.linkedin.com/in/evankcook/"
-          text="Check out my resume"
-        />
+        <Button link="./resume.pdf" text="Check out my resume" />
       </div>
       <Section id="about-me" title="About Me">
         <div className="content-container">
