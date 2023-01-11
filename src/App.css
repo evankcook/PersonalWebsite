@@ -95,9 +95,10 @@ p {
   margin: 0;
 }
 
-.home-resume h1 {
+h1 {
   font-family: "Raleway-Bold";
   font-size: 96px;
+  color: #f2fffd;
 }
 
 h3 {
@@ -131,4 +132,11 @@ p {
 
 #personal-photo {
   width: 30%;
+}
+
+.coming-soon {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
