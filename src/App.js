@@ -135,7 +135,11 @@ function App() {
           isImageLeft={true}
         />
       </Section>
-      <section id="experience"></section>
+      <Section id="experience" title="Experience">
+        <div className="coming-soon">
+          <h1>Coming soon...</h1>
+        </div>
+      </Section>
       <section id="interests"></section>
     </div>
   );
