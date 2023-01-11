@@ -17,7 +17,7 @@ function Section(props) {
               fill="#2CA796"
             />
           </svg>
-          <h3>About Me</h3>
+          <h3>{props.title}</h3>
         </div>
         {props.children}
       </div>
