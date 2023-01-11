@@ -23,7 +23,7 @@ function App() {
           </li>
         </ul>
         <div className="logo-navbar">
-          <a href="https://gmail.com" target="_blank" rel="noreferrer">
+          <a href="mailto: cook.ev@northeastern.edu">
             <svg
               width="25"
               height="20"
