@@ -5,7 +5,7 @@ import Section from "./Components/Section";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <nav className="home-navbar">
         <ul>
           <li>
