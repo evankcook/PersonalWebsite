@@ -11,7 +11,7 @@ function Project(props) {
         <div className="text-box-left">
           <h3>{props.title}</h3>
           <p>{props.description}</p>
-          <Button link="https://github.com/evankcook" text="Check it out" />
+          <Button link={props.link} text="Check it out" />
         </div>
       </div>
     );
@@ -21,7 +21,7 @@ function Project(props) {
         <div className="text-box-right">
           <h3>{props.title}</h3>
           <p>{props.description} hi</p>
-          <Button link="https://github.com/evankcook" text="Check it out" />
+          <Button link={props.link} text="Check it out" />
         </div>
         <div className="image-box">
           <img src={props.imgPath} alt={props.alt} id="project-img-right" />
