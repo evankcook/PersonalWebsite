@@ -113,7 +113,27 @@ function App() {
         </div>
       </Section>
       <Section id="projects" title="Projects">
-        <Project imgPath="images/test-image.jpg" alt="test" />
+        <Project
+          imgPath="images/test-image.jpg"
+          alt="test"
+          title="Amazing Project"
+          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          isImageLeft={true}
+        />
+        <Project
+          imgPath="images/test-image.jpg"
+          alt="test"
+          title="Amazing Project 2"
+          description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          isImageLeft={false}
+        />
+        <Project
+          imgPath="images/test-image.jpg"
+          alt="test"
+          title="Super Amazing Project 3"
+          description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          isImageLeft={true}
+        />
       </Section>
       <section id="experience"></section>
       <section id="interests"></section>
