@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./Components/Button";
+import Interests from "./Components/Interests";
 import Project from "./Components/Project";
 import Section from "./Components/Section";
 
@@ -118,6 +119,7 @@ function App() {
           alt="test"
           title="Amazing Project"
           description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          link="https://github.com/evankcook"
           isImageLeft={true}
         />
         <Project
@@ -125,6 +127,7 @@ function App() {
           alt="test"
           title="Amazing Project 2"
           description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          link="https://github.com/evankcook"
           isImageLeft={false}
         />
         <Project
@@ -132,6 +135,7 @@ function App() {
           alt="test"
           title="Super Amazing Project 3"
           description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          link="https://github.com/evankcook"
           isImageLeft={true}
         />
       </Section>
@@ -140,7 +144,32 @@ function App() {
           <h1>Coming soon...</h1>
         </div>
       </Section>
-      <section id="interests"></section>
+      <Section id="interests" title="Interests">
+        <Interests
+          title="My Cool Hobby"
+          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          link="https://github.com/evankcook"
+        />
+        <Interests
+          title="My Cool Hobby 2"
+          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          link="https://github.com/evankcook"
+        />
+        <Interests
+          title="My Cool Hobby 3"
+          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
+          link="https://github.com/evankcook"
+        />
+      </Section>
+      <div className="footer">
+        <a
+          href="https://www.linkedin.com/in/evankcook/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Built by Evan Cook
+        </a>
+      </div>
     </div>
   );
 }
