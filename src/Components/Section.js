@@ -1,8 +1,25 @@
 import "./Section.css";
+import { useEffect, useRef, useState } from "react";
 
 function Section(props) {
+  const domRef = useRef();
+  const [isVisible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => setVisible(entry.isIntersecting));
+    });
+
+    observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
+  }, []);
+
   return (
-    <section id={props.id}>
+    <section
+      id={props.id}
+      className={`fade-in ${isVisible ? "visible" : ""}`}
+      ref={domRef}
+    >
       <div>
         <div className="section-header">
           <svg
