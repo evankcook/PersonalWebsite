@@ -6,12 +6,14 @@ function Section(props) {
   const [isVisible, setVisible] = useState(true);
 
   useEffect(() => {
+    let refValue = null;
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => setVisible(entry.isIntersecting));
     });
 
     observer.observe(domRef.current);
-    return () => observer.unobserve(domRef.current);
+    refValue = domRef.current;
+    return () => observer.unobserve(refValue);
   }, []);
 
   return (
