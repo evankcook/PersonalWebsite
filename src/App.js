@@ -135,11 +135,11 @@ function App() {
           isImageLeft={false}
         />
         <Project
-          imgPath="images/test-image.jpg"
-          alt="test"
-          title="Super Amazing Project 3"
-          description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          imgPath="images/photoeditorproject.png"
+          alt="Photo Editor project"
+          title="Photo Editor Project"
+          description="During the duration of this project, another student and I created a photo editor application that provided support for 17 features. It could process commands through a GUI, 'text-mode', and scripting. This project was completed using Java and the Swing toolkit. The project was made following the principles of object-oriented design and MVC architecture."
+          link="https://youtu.be/ARFNPOQmuC8"
           isImageLeft={true}
         />
       </Section>
