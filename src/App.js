@@ -127,11 +127,11 @@ function App() {
           isImageLeft={true}
         />
         <Project
-          imgPath="images/test-image.jpg"
-          alt="test"
-          title="Amazing Project 2"
-          description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          imgPath="images/personal-website.png"
+          alt="Personal Website"
+          title="Personal Website"
+          description="Surprise! You're interacting with this project as you read this. I hope you are enjoying it! This website was created using JavaScript, CSS, and HTML with React as the framework. It is still a work in progress as I hope to add more projects in the future!"
+          link="https://github.com/evankcook/PersonalWebsite"
           isImageLeft={false}
         />
         <Project

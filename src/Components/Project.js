@@ -7,7 +7,7 @@ function Project(props) {
       {props.isImageLeft || (
         <div className="text-box-right">
           <h3>{props.title}</h3>
-          <p>{props.description} hi</p>
+          <p>{props.description}</p>
           <Button link={props.link} text="Check it out" />
         </div>
       )}
