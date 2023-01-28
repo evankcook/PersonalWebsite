@@ -119,11 +119,11 @@ function App() {
       </Section>
       <Section id="projects" title="Projects">
         <Project
-          imgPath="images/test-image.jpg"
-          alt="test"
-          title="Amazing Project"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          imgPath="images/mealpal.png"
+          alt="MealPal"
+          title="MealPal"
+          description="In this project, I built a web application to facilitate the recipe search process. The app utilizes the Spoonacular API for recipe querying. The front end was built using React, Javascript, HTML, and CSS. User verification and food preference storage was built using Firebase."
+          link="https://github.com/evankcook/FoodPlannerProject"
           isImageLeft={true}
         />
         <Project
