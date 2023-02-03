@@ -85,28 +85,15 @@ function App() {
         <h3>
           Computer science and business student at Northeastern University
         </h3>
-        <p className="resume-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-        </p>
-        <Button link="./resume.pdf" text="Check out my resume" />
+        <p className="resume-text"></p>
+        <Button
+          link="./Resume_ Evan Kosei Cook_1_26.pdf"
+          text="Check out my resume"
+        />
       </div>
       <Section id="about-me" title="About Me">
         <div className="content-container">
-          <p className="about-me-text">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem
-          </p>
+          <p className="about-me-text"></p>
           <img
             src="images/personal-photo.svg"
             alt="Evan Kosei Cook"
@@ -116,27 +103,27 @@ function App() {
       </Section>
       <Section id="projects" title="Projects">
         <Project
-          imgPath="images/test-image.jpg"
-          alt="test"
-          title="Amazing Project"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          imgPath="images/mealpal.png"
+          alt="MealPal"
+          title="MealPal"
+          description="In this project, I built a web application to facilitate the recipe search process. The app utilizes the Spoonacular API for recipe querying. The front end was built using React, Javascript, HTML, and CSS. User verification and food preference storage was built using Firebase."
+          link="https://github.com/evankcook/FoodPlannerProject"
           isImageLeft={true}
         />
         <Project
-          imgPath="images/test-image.jpg"
-          alt="test"
-          title="Amazing Project 2"
-          description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          imgPath="images/personal-website.png"
+          alt="Personal Website"
+          title="Personal Website"
+          description="Surprise! You're interacting with this project as you read this. I hope you are enjoying it! This website was created using JavaScript, CSS, and HTML with React as the framework. It is still a work in progress as I hope to add more projects in the future!"
+          link="https://github.com/evankcook/PersonalWebsite"
           isImageLeft={false}
         />
         <Project
-          imgPath="images/test-image.jpg"
-          alt="test"
-          title="Super Amazing Project 3"
-          description="Sed ut perspiciatis unde omnis isteasdfjaksledjflkajselkfj natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          imgPath="images/photoeditorproject.png"
+          alt="Photo Editor project"
+          title="Photo Editor Project"
+          description="During the duration of this project, another student and I created a photo editor application that provided support for 17 features. It could process commands through a GUI, 'text-mode', and scripting. This project was completed using Java and the Swing toolkit. The project was made following the principles of object-oriented design and MVC architecture."
+          link="https://youtu.be/ARFNPOQmuC8"
           isImageLeft={true}
         />
       </Section>
