@@ -93,7 +93,7 @@ function App() {
       </div>
       <Section id="about-me" title="About Me">
         <div className="content-container">
-          <p className="about-me-text"></p>
+          <p className="about-me-text">About me to be added soon!</p>
           <img
             src="images/personal-photo.svg"
             alt="Evan Kosei Cook"
@@ -139,9 +139,9 @@ function App() {
           link="https://www.youtube.com/watch?v=JrmnGUC1id0"
         />
         <Interests
-          title="My Cool Hobby 2"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
-          link="https://github.com/evankcook"
+          title="An Avid Art Appreciatician"
+          description="Although I lack the talent to produce, I am an avid admirer of the visual arts. If I am not spending a free day at the symphony or cheering on my Minnesota Vikings, you may find me at a local art museum checking out the new exhibit in town. In this artistic realm, I am most drawn to Russian Expressionist Art, especially the works of Vassily Kandinsky. The link below will take you to a design project in which I brought a few works of Kandinsky to life through a subtly-choreographed animation of the first of Scriabin's Deux Poemes."
+          link="https://youtu.be/H--IakmRnNU"
         />
       </Section>
       <div className="footer">
