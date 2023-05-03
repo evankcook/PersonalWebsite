@@ -103,12 +103,20 @@ function App() {
       </Section>
       <Section id="projects" title="Projects">
         <Project
+          imgPath="images/lecturelink.png"
+          alt="LectureLink"
+          title="LectureLink"
+          description="LectureLink is a presentation clicker with an integrated polling system, designed to help professors measure their students' engagement and participation during lectures. With just a click, professors can send a prompt that asks for level of understanding to students' devices, allowing them to give real-time feedback. This interactive approach to teaching and learning not only enhances comprehension but also encourages participation and collaboration in the classroom."
+          link="https://github.com/LectureLink/LectureLink"
+          isImageLeft={true}
+        />
+        <Project
           imgPath="images/mealpal.png"
           alt="MealPal"
           title="MealPal"
           description="In this project, I built a web application to facilitate the recipe search process. The app utilizes the Spoonacular API for recipe querying. The front end was built using React, Javascript, HTML, and CSS. User verification and food preference storage was built using Firebase."
           link="https://github.com/evankcook/FoodPlannerProject"
-          isImageLeft={true}
+          isImageLeft={false}
         />
         <Project
           imgPath="images/personal-website.png"
@@ -116,7 +124,7 @@ function App() {
           title="Personal Website"
           description="Surprise! You're interacting with this project as you read this. I hope you are enjoying it! This website was created using JavaScript, CSS, and HTML with React as the framework. It is still a work in progress as I hope to add more projects in the future!"
           link="https://github.com/evankcook/PersonalWebsite"
-          isImageLeft={false}
+          isImageLeft={true}
         />
         <Project
           imgPath="images/photoeditorproject.png"
@@ -124,7 +132,7 @@ function App() {
           title="Photo Editor Project"
           description="During the duration of this project, another student and I created a photo editor application that provided support for 17 features. It could process commands through a GUI, 'text-mode', and scripting. This project was completed using Java and the Swing toolkit. The project was made following the principles of object-oriented design and MVC architecture."
           link="https://youtu.be/ARFNPOQmuC8"
-          isImageLeft={true}
+          isImageLeft={false}
         />
       </Section>
       <Section id="experience" title="Experience">
