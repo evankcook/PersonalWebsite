@@ -87,7 +87,7 @@ function App() {
         </h3>
         <p className="resume-text"></p>
         <Button
-          link="./Resume_ Evan Kosei Cook_1_26.pdf"
+          link="./Resume_ Evan Kosei Cook_6_20.pdf"
           text="Check out my resume"
         />
       </div>
